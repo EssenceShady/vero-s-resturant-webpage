@@ -86,7 +86,7 @@ header button {
 .hero-text h1 {
   font-size: 55px;
   font-family:'Times New Roman', Times, serif;
-  color: rgb(219, 147, 12);
+  color: rgb(236, 130, 9);
 }
 
 
@@ -118,10 +118,11 @@ header button {
 
 .hero-text button a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 /* About section style */
+/* styling the about top div */
 .top-div {
   display: flex;
   gap: 50px;
@@ -133,10 +134,10 @@ header button {
 }
 
 .about-rightdiv h2 {
-  font-size: 40px;
+  font-size: 45px;
   margin-bottom: 20px;
   margin-top: 20px;
-  color: #e0730d;
+  color: #000;
   font-family:'Times New Roman', Times, serif;
 }
 
@@ -144,14 +145,15 @@ header button {
   line-height: 1.6;
   margin-bottom: 20px;
   font-size: 18px;
-  width: 50ch;
+  width: 55ch;
 }
 
 .about-rightdiv h3 {
-  font-size: 28px;
-  margin-top: 40px;
+  font-size: 30px;
+  margin-top: 30px;
+  font-style: italic;
   margin-bottom: 20px;
-  color: #000000;
+  color: #e0730d;
   font-family:'Times New Roman', Times, serif;
 }
 
@@ -168,9 +170,58 @@ header button {
   object-fit: cover;
 }
 
+/* the facts div inside the container div */
+.facts {
+  font-size: 20px;
+  color: #000;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 30px 0px;
+  border-top: black solid 1px;
+  border-bottom: black solid 1px;
+}
+
 /* Styling the left div */
 .about-leftdiv img {
   width: 600px;
   height: 650px;
   object-fit: cover;
 }
+
+/* Menu Section */
+#book-a-table {
+  background: url("../images/menu/book-a-table.png") no-repeat center center/cover;
+  /* color: #e90e0e; */
+  height: 100vh;
+  margin-top: 5px;
+  padding: auto;
+  /* font-size: 24px; */
+}
+.book-table-text{
+  padding-top: 400px;
+  text-align: center;
+}
+
+  .book-table-text h2{
+    font-size: 45px;
+    font-style: italic;
+    color: #f57905de; 
+    border-bottom:  #cf0808 solid 2px;
+  }
+  
+  .book-table-text p{
+    font-size: 22px;
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+
+  .book-table-text button{
+    padding: 12px 15px;
+    background-color: #e8491d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
