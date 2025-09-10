@@ -61,7 +61,6 @@ header button {
   width: 100%;
   overflow: hidden;
   padding: 0px 70px;
-  
 }
 
 /* Hero Section */
@@ -85,22 +84,21 @@ header button {
 
 .hero-text h1 {
   font-size: 55px;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   color: rgb(236, 130, 9);
 }
 
-
-#hero  form {
+#hero form {
   margin-top: 148px;
   display: flex;
   justify-content: center;
   /* width: 80%; */
   gap: 10px;
   background-color: #e0730d;
-  padding: 30px 30px; 
+  padding: 30px 30px;
 }
 
- #hero form .form-group {
+#hero form .form-group {
   border: #070707 1px solid;
   gap: 10px;
 }
@@ -113,7 +111,6 @@ header button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  
 }
 
 .hero-text button a {
@@ -138,7 +135,7 @@ header button {
   margin-bottom: 20px;
   margin-top: 20px;
   color: #000;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .about-rightdiv p {
@@ -154,7 +151,7 @@ header button {
   font-style: italic;
   margin-bottom: 20px;
   color: #e0730d;
-  font-family:'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .chefs-div {
@@ -191,37 +188,93 @@ header button {
 
 /* Menu Section */
 #book-a-table {
-  background: url("../images/menu/book-a-table.png") no-repeat center center/cover;
+  background: url("../images/menu/book-a-table.png") no-repeat center
+    center/cover;
   /* color: #e90e0e; */
   height: 100vh;
   margin-top: 5px;
   padding: auto;
   /* font-size: 24px; */
 }
-.book-table-text{
+.book-table-text {
   padding-top: 400px;
   text-align: center;
 }
 
-  .book-table-text h2{
-    font-size: 45px;
-    font-style: italic;
-    color: #f57905de; 
-    border-bottom:  #cf0808 solid 2px;
-  }
-  
-  .book-table-text p{
-    font-size: 22px;
-    margin-bottom: 10px;
-    font-style: italic;
-  }
+.book-table-text h2 {
+  font-size: 55px;
+  font-style: italic;
+  color: #f57905de;
+  border-bottom: #cf0808 solid 2px;
+}
 
-  .book-table-text button{
-    padding: 12px 15px;
-    background-color: #e8491d;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 18px;
-  }
+.book-table-text p {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.book-table-text button {
+  padding: 12px 15px;
+  background-color: #e8491d;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#menu-div {
+  padding: 20px 80px;
+}
+#menu-div h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.outside-div {
+  /* display: flex; */
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+  background-color: rgb(216, 156, 27);
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.inside-div {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #e0730d;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.menu-img-div {
+  width: 65px;
+  height: 80px;
+}
+
+.menu-img-div img {
+  width: 65px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+}
 
