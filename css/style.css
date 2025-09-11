@@ -49,12 +49,12 @@ header .logo {
 } */
 
 header button {
-  padding: 8px 15px;
+  padding: 12px 15px;
   background-color: #e8491d;
-  color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 18px;
 }
 
 .container {
@@ -89,7 +89,7 @@ header button {
 }
 
 #hero form {
-  margin-top: 148px;
+  margin-top: 142px;
   display: flex;
   justify-content: center;
   /* width: 80%; */
@@ -104,13 +104,13 @@ header button {
 }
 
 .hero-text button {
-  margin-top: 5px;
   padding: 12px 15px;
   background-color: #e8491d;
-  color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 18px;
+  margin-top: 5px;
 }
 
 .hero-text button a {
@@ -224,13 +224,19 @@ header button {
 }
 
 #menu-div {
-  padding: 20px 80px;
+  padding: 10px 80px;
+  background-color: #e0730d;
+  /* margin-top: 15px; */
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  margin: 15px 70px;
 }
 #menu-div h2 {
   text-align: center;
   font-size: 40px;
-  margin-bottom: 10px;
-  color: #000;
+  margin-bottom: 2px;
+  font-style: italic;
+  color: #201e1b;
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -239,9 +245,19 @@ header button {
   gap: 20px;
   justify-content: center;
   width: 100%;
-  background-color: rgb(216, 156, 27);
+  /* background-color: rgb(216, 156, 27); */
   flex-wrap: wrap;
   padding: 10px;
+}
+
+.outside-div > h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #a50909;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  /* margin-left: 400px; */
+  justify-content: center;
 }
 
 .inside-div {
@@ -254,27 +270,42 @@ header button {
 
 .menu-item {
   display: flex;
-  /* justify-content: space-between; */
-  gap: 10px;
+  width: 400px;
+  justify-content: space-between;
+  /* gap: 10px; */
   align-items: center;
   padding: 10px;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: #e0730d;
+  background-color: #ebdb53a8;
   border: 1px solid #ccc;
   margin-bottom: 20px;
   border: none;
 }
 
+.button-holder:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  transition: all 0.3s ease;
+}
 .menu-img-div {
-  width: 65px;
+  width: 85px;
   height: 80px;
 }
 
 .menu-img-div img {
-  width: 65px;
+  width: 100%;
   height: 80px;
   object-fit: cover;
   border-radius: 10px;
 }
 
+.menu-item div span {
+  font-weight: bold;
+  color: #000;
+  font-size: 15px;
+}
+
+/* .menu-item-div {
+  background-color: brown;
+} */
